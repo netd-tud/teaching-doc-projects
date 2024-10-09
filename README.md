@@ -31,10 +31,11 @@ c-ares | [c-ares](https://c-ares.org/) | C | MIT | https://github.com/c-ares/c-a
 Chromium | [Google](https://google.com) | C++ | BSD-3 | https://chromium.googlesource.com/chromium/ | :white_check_mark: | :white_large_square: | :white_large_square:
 curl | [curl](https://curl.se/) | C | curl (MIT/BSD-like) | https://github.com/curl/curl |  :white_check_mark: | :white_large_square: | :white_large_square:
 dig | [ISC](https://isc.org/) | C | Apache-2.0 | https://gitlab.isc.org/isc-projects/bind9/ | :white_check_mark: | :white_large_square: | :white_large_square:
-dnspython | [rthalley](https://github.com/rthalley) | Python | ISCL | https://github.com/rthalley/dnspython |  :white_check_mark: | :white_large_square: | :white_large_square:
+dnspython | [rthalley](https://github.com/rthalley) | Python | ISCL | https://github.com/rthalley/dnspython |  :white_check_mark: | :white_large_square: | :white_large_square:[^2]
 Firefox | [Mozilla](mozilla.org) | JavaScript | MPL-2 | https://searchfox.org/mozilla-central/source/browser/components/doh |  :white_check_mark: | :white_large_square: | :white_large_square:
 
 [DoH]: https://datatracker.ietf.org/doc/rfc8484/
 [DoC]: https://datatracker.ietf.org/doc/draft-ietf-core-dns-over-coap/
 [application/dns+cbor]: https://datatracker.ietf.org/doc/draft-lenders-dns-cbor/
 [^1]: https://github.com/c-ares/c-ares/issues/612
+[^2]: Monkey-patched version for [`dns.query.https()`](https://dnspython.readthedocs.io/en/latest/query.html#https) by @miri64 exists. Please ask via martine.lenders@tu-dresden.de for the source.
