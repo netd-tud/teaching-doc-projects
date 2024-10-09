@@ -10,7 +10,7 @@ to be extended with [DNS over CoAP][DoC] and the [application/dns+cbor] message 
 - Source: https://en.wikipedia.org/wiki/Comparison_of_DNS_server_software#Feature_matrix
 	- Prerequisite: Free Software and DoH support
 
-(:yellow_square: = WIP, :white_large_square: = Not Implemented, :white_check_mark: = Implemented)
+( :yellow_square: = WIP, :white_large_square: = Not Implemented, :white_check_mark: = Implemented)
 
 Software | Developer | Language | License | Repo Link | [DoH] | [DoC] | [DNS+CBOR][application/dns+cbor]
 ----------: | :--: | :-: | :-: | :-------------------- | :-: | :-: | :-:
@@ -23,7 +23,7 @@ Unbound | [NLnet Labs](https://nlnetlabs.nl/) | C | BSD-3 | https://github.com/N
 
 ### Libraries and (stub) resolvers
 
-(:yellow_square: = WIP, :white_large_square: = Not Implemented, :white_check_mark: = Implemented)
+( :yellow_square: = WIP, :white_large_square: = Not Implemented, :white_check_mark: = Implemented)
 
 Software | Developer | Language | License | Repo Link | [DoH] | [DoC] | [DNS+CBOR][application/dns+cbor]
 ----------: | :--: | :-: | :-: | :-------------------- | :-: | :-: | :-:
